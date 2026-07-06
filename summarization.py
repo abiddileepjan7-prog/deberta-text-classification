@@ -1,5 +1,3 @@
-
-
 from transformers import pipeline
 
 summarizer = pipeline(
@@ -21,9 +19,9 @@ reduce human effort, and create new opportunities across various industries.
 
 summary = summarizer(
     text,
-    max_length=120,
-    min_length=40,
-    do_sample=False
+    max_length=50,
+    min_length=20,
+    
 )
 
-print(summary[0]["summary_text"])
+print(summary)

@@ -5,6 +5,6 @@ classifier = pipeline(
     model="mrm8488/deberta-v3-small-finetuned-sst2"
 )
 
-text = "I absolutely loved this movie."
+text = "I absolutely love this movie."
 
 print(classifier(text))
