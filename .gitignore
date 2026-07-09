@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+tf_env/
+**/venv/
+
+# Model folders
+**/qwen-merged/
+**/saved_model/
+**/smollm2_dolly_finetuned/
+**/led_bbc_finetuned/
+
+# Datasets
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
