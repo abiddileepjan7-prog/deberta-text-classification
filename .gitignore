@@ -20,3 +20,5 @@ tf_env/
 .ipynb_checkpoints/
 
 finetuning_qlora/qwen_qlora_merged/
+
+filereading/BhaRuns.xml
